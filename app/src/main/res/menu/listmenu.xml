@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dvc.invitationscheduler.event.ListActivity">
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/edit"
+        android:visible="false"
+        android:icon="@drawable/edit"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/delete"
+        android:visible="false"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_import"
+        android:title="@string/import_string"
+        android:visible="false"
+        android:icon="@drawable/contacts"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/menu"
+        android:title="action_notification"
+        app:showAsAction="ifRoom">
+        <menu>
+        <item
+            android:id="@+id/action_logout"
+            android:title="@string/log_out"
+            android:icon="@drawable/logout"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_about"
+            android:title="@string/about"
+            android:icon="@drawable/about"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_exit"
+            android:title="@string/exit"
+            android:icon="@drawable/exit"
+            app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "687456709039",
+    "firebase_url": "https://invitation-scheduler-ac8de.firebaseio.com",
+    "project_id": "invitation-scheduler-ac8de",
+    "storage_bucket": "invitation-scheduler-ac8de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687456709039:android:93f2a5cb69e0913f05275a",
+        "android_client_info": {
+          "package_name": "com.dvc.invitationscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687456709039-19gc24u2f2bcgfs7rha7f7j73l35pjgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDq5jCo1DhCER09VhsXmj7YAarkU4oGW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687456709039-19gc24u2f2bcgfs7rha7f7j73l35pjgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

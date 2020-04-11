@@ -1,0 +1,2 @@
+rootProject.name='Invitation Scheduler'
+include ':app'
